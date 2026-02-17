@@ -20,7 +20,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: mona2_r rgbled_adapter
-    #snippet: studio-rpc-usb-uart  # USB logging と競合するため一時無効化
+    snippet: zmk-usb-logging  # USB logging用（通常時は studio-rpc-usb-uart に戻す）
   - board: seeeduino_xiao_ble
     shield: mona2_l rgbled_adapter
   - board: seeeduino_xiao_ble
