@@ -25,7 +25,7 @@ manifest:
     #   revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: main
+      revision: fbe6dde8ffa68fdcded1600a66aa18cf12a796fb  # v0.3互換シム削除前にピン止め
     - name: zmk-input-processor-keybind
       remote: zettaface
       revision: main
